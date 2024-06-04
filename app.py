@@ -64,7 +64,7 @@ def submit_analysis(uploaded_image):
             "prompt": "What are the top 5 animals this cloud looks like, with confidence scores (in the form of percentage)?",
         }
         output = replicate.run(
-            "yorickvp/llava-13b:b5f6212d032508382d61ff00469ddda3e32fd8a0e75dc39d8a4191bb742157fb",
+            apikey,
             input=input_data,
         )
         st.write("Result: ", output)
