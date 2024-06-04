@@ -1,4 +1,4 @@
-apikey = "yorickvp/llava-13b:b5f6212d032508382d61ff00469ddda3e32fd8a0e75dc39d8a4191bb742157fb"
+apikey = "yourkey"
 |
 # Byte-compiled / optimized / DLL files
 __pycache__/
